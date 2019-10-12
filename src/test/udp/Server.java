@@ -38,6 +38,19 @@ public class Server {
 			
 			if(data(receive).toString().equals("REQUEST")) {
 				System.out.println("A Request is made");
+				
+				//THIS PART
+				
+//				ByteArrayInputStream in = new ByteArrayInputStream(receive);
+//				ObjectInputStream is = new ObjectInputStream(in);
+//				try {
+//					RBMS booking = (RBMS) is.readObject();
+//					System.out.println("Student object received = "+booking);
+//					} catch (ClassNotFoundException e) {
+//					e.printStackTrace();
+//					}
+				
+				
 				// Create object to store request
 //				ObjectInputStream iStream = new ObjectInputStream(new ByteArrayInputStream(receive));
 //				Message messageClass = (Message) iStream.readObject();
